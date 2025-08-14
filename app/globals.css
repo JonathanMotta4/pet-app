@@ -5,7 +5,12 @@
 
 @theme inline {
   --color-green-primary: oklch(0.6209 0.105 199.75);
-  --color-yellow-secondary:oklch(0.8828 0.1312 85.9);
+  --color-yellow-secondary: oklch(0.8828 0.1312 85.9);
+  --font-heading: var(--font-pacifico);
+  --font-body: var(--font-geist);
+  --font-sans: var(--font-geist);
+
+  /* Shadcn Theme*/
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -118,6 +123,15 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
   }
 }

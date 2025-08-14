@@ -12,11 +12,11 @@ import Link from 'next/link'
 //TODO: Add other links to sidebar
 export function Header() {
 	return (
-		<header className='flex justify-between items-center p-3 h-14 shadow-md bg-green-primary'>
+      <header className='flex sticky top-0 left-0 justify-between items-center p-3 h-14 shadow-md bg-primary-foreground'>
 			<Link href={'/'}>
 				<div className='flex gap-2 items-center transition-colors hover:text-yellow-secondary'>
 					<Dog className='size-8' />
-					<h1 className='text-2xl'>Pet App</h1>
+					<h1 className='text-2xl'>Pet Bem</h1>
 				</div>
 			</Link>
 			<Sheet>
@@ -25,7 +25,14 @@ export function Header() {
 				</SheetTrigger>
 				<SheetContent className='px-2 w-96'>
 					<SheetHeader>
-						<SheetTitle>Pet App</SheetTitle>
+						<SheetTitle>
+							<Link
+								href={'/'}
+								className='transition-colors hover:text-yellow-secondary'
+							>
+								Pet App
+							</Link>
+						</SheetTitle>
 						<SheetDescription>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Consequuntur laudantium non eveniet.
@@ -38,10 +45,18 @@ export function Header() {
 						>
 							Home
 						</Link>
-						<Link href={'/'}>Home</Link>
-						<Link href={'/'}>Home</Link>
-						<Link href={'/'}>Home</Link>
-						<Link href={'/'}>Home</Link>
+						<Link
+							href={'/'}
+							className='transition-colors hover:underline hover:text-green-primary'
+						>
+							Home
+						</Link>
+						<Link
+							href={'/'}
+							className='transition-colors hover:underline hover:text-green-primary'
+						>
+							Home
+						</Link>
 					</div>
 				</SheetContent>
 			</Sheet>
