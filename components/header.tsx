@@ -11,11 +11,11 @@ import Link from 'next/link'
 import { ModeToggle } from './mode-toggle'
 export function Header() {
 	return (
-		<header className='flex sticky top-0 left-0 justify-between items-center p-3 h-14 shadow-md bg-primary-foreground'>
+		<header className='flex sticky top-0 left-0 justify-between items-center p-3 h-14 shadow-md bg-green-primary'>
 			<Link href={'/'}>
-				<div className='flex gap-2 items-center transition-colors hover:text-yellow-secondary'>
-					<Dog className='size-8' />
-					<h1 className='text-2xl'>Pet Bem</h1>
+				<div className='flex gap-2 items-center transition-colors group text-yellow-secondary'>
+					<Dog className='size-8 group-hover:drop-shadow-sm' />
+					<h1 className='text-2xl font-heading group-hover:text-shadow-sm'>Pet Bem</h1>
 				</div>
 			</Link>
 			<div className='flex gap-2'>
@@ -29,7 +29,7 @@ export function Header() {
 							<SheetTitle>
 								<Link
 									href={'/'}
-									className='transition-colors hover:text-yellow-secondary'
+									className='transition-colors font-heading hover:text-yellow-secondary'
 								>
 									Pet App
 								</Link>
@@ -42,21 +42,21 @@ export function Header() {
 						<div className='flex flex-col gap-2 px-3 text-lg'>
 							<Link
 								href={'/'}
-								className='flex gap-1 items-center transition-colors hover:underline hover:text-green-primary'
+								className='flex gap-1 items-center transition-colors hover:underline dark:hover:text-yellow-secondary hover:text-green-primary'
 							>
 								<Stethoscope className='size-6' />
 								Nossa história
 							</Link>
 							<Link
 								href={'/'}
-								className='flex gap-1 items-center transition-colors hover:underline hover:text-green-primary'
+								className='flex gap-1 items-center transition-colors hover:underline dark:hover:text-yellow-secondary hover:text-green-primary'
 							>
 								<Syringe className='size-6' />
 								Especialidades
 							</Link>
 							<Link
 								href={'/'}
-								className='flex gap-1 items-center transition-colors hover:underline hover:text-green-primary'
+								className='flex gap-1 items-center transition-colors hover:underline dark:hover:text-yellow-secondary hover:text-green-primary'
 							>
 								<MapPin className='size-6' />
 								Localização e Contato

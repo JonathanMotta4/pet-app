@@ -1,11 +1,8 @@
-import { HistoryCarousel } from '@/components/history-carousel'
-
+import { HistoryCard } from '@/components/history-card'
 export default function Home() {
-	return (
-		<div>
-			<div className='w-full h-96 bg-green-primary'>
-				<HistoryCarousel />
-			</div>
-		</div>
-	)
+  return (
+    <div>
+      <HistoryCard/>
+          </div>
+  )
 }
