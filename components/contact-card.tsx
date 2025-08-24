@@ -15,7 +15,7 @@ import Link from 'next/link'
 export const ContactCard = () => {
   return (
     <div className='flex mx-auto w-full h-fit text-wrap'>
-      <Card className='overflow-hidden flex-col md:flex-row justify-between py-6 px-4 mx-auto w-full rounded-xl border shadow-sm md:mx-auto md:w-4/5'>
+      <Card className='overflow-hidden flex-col justify-between py-6 px-4 mx-auto w-full rounded-xl border shadow-sm md:flex-row md:mx-auto md:w-4/5'>
         <div className='flex flex-col gap-6'>
           <CardHeader className='space-y-2'>
             <CardTitle className='text-2xl text-shadow-sm font-heading text-green-primary dark:text-yellow-secondary'>
@@ -23,8 +23,8 @@ export const ContactCard = () => {
             </CardTitle>
             <CardDescription>
               <p>
-                Alguma duvida ou precisando de atendimento? Nossa equipe está
-                pronta para te ajudar no que seu pet precisar{' '}
+                Tem alguma dúvida ou precisa de ajuda? Nossa equipe está à
+                disposição para cuidar do que seu pet precisar.{' '}
               </p>
             </CardDescription>
           </CardHeader>

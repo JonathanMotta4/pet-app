@@ -16,19 +16,12 @@ export function SpecialtiesCard() {
             <CardTitle className='text-2xl text-shadow-sm font-heading text-green-primary dark:text-yellow-secondary'>
               Nossas especialidades
             </CardTitle>
-            <CardDescription>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                nemo architecto ullam voluptatem et pariatur quos. Omnis
-                suscipit nesciunt, atque dolores eveniet tempore sequi quaerat?
-              </p>
-            </CardDescription>
           </CardHeader>
           <CardContent>
             <div className='flex flex-col gap-6 mr-4 h-full text-left text-pretty'>
               <p className='text-lg'>
-                Todos os nossos atendimentos disponiveis na clinica ou no
-                conforto da sua residencia
+                Todos os nossos atendimentos estão disponíveis tanto na clínica
+                quanto no conforto da sua casa
               </p>
               <ol className='mx-2'>
                 <li>
@@ -36,8 +29,8 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Odontologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico, prevenção e tratamento de doenças e
+                        condições que afetam a saúde bucal de animais.
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -47,8 +40,8 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Dermatologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico, tratamento e prevenção de doenças de pele,
+                        pelagem, unhas e orelhas em animais.
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -58,8 +51,7 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Oncologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento de câncer, e tumores em animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -69,8 +61,8 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Cardiologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento de doenças do coração e do
+                        sistema circulatório em animais{' '}
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -80,8 +72,7 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Oftalmologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento das doenças oculares em animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -90,10 +81,7 @@ export function SpecialtiesCard() {
                   <Tooltip>
                     <TooltipTrigger>Endocrinologia </TooltipTrigger>
                     <TooltipContent>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
-                      </p>
+                      <p>Tratamento dos distúrbios hormonais em animais </p>
                     </TooltipContent>
                   </Tooltip>
                 </li>
@@ -102,8 +90,9 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Ortopedia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento de lesões e doenças
+                        relacionadas ao sistema musculoesquelético em animais
+                        (ossos, articulações, músculos, ligamentos e tendões)
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -114,8 +103,8 @@ export function SpecialtiesCard() {
 
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento de doenças do sistema digestivo
+                        de animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -126,8 +115,8 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Nefrologia </TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Prevenção, diagnóstico e tratamento das doenças do
+                        sistema urinário em animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -138,8 +127,8 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Neurologia</TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Diagnóstico e tratamento de distúrbios neurológicos em
+                        animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
@@ -149,34 +138,35 @@ export function SpecialtiesCard() {
                     <TooltipTrigger>Fisioterapia </TooltipTrigger>
                     <TooltipContent>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
+                        Prevenção, tratamento e reabilitação de disfunções
+                        musculoesqueléticas, neurológicas e articulares em
+                        animais
                       </p>
                     </TooltipContent>
                   </Tooltip>
                 </li>
-                <li>
-                  <Tooltip>
-                    <TooltipTrigger>Clinica de Felinos</TooltipTrigger>
-                    <TooltipContent>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
-                      </p>
-                    </TooltipContent>
-                  </Tooltip>
-                </li>
-                <li>
-                  <Tooltip>
-                    <TooltipTrigger>Clinica de Silvestres</TooltipTrigger>
-                    <TooltipContent>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Est, quo.
-                      </p>
-                    </TooltipContent>
-                  </Tooltip>
-                </li>
+                {/* <li>
+                //   <Tooltip>
+                //     <TooltipTrigger>Clinica de Felinos</TooltipTrigger>
+                //     <TooltipContent>
+                //       <p>
+                //         Lorem ipsum dolor sit, amet consectetur adipisicing
+                //         elit. Est, quo.
+                //       </p>
+                //     </TooltipContent>
+                //   </Tooltip>
+                // </li>
+                // <li>
+                //   <Tooltip>
+                //     <TooltipTrigger>Clinica de Silvestres</TooltipTrigger>
+                //     <TooltipContent>
+                //       <p>
+                //         Lorem ipsum dolor sit, amet consectetur adipisicing
+                //         elit. Est, quo.
+                //       </p>
+                //     </TooltipContent>
+                //   </Tooltip>
+                // </li> */}
               </ol>
             </div>
           </CardContent>
