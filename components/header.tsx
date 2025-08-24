@@ -48,14 +48,14 @@ export function Header() {
 								Nossa história
 							</Link>
 							<Link
-								href={'/'}
+								href={'/specialties'}
 								className='flex gap-1 items-center transition-colors hover:underline dark:hover:text-yellow-secondary hover:text-green-primary'
 							>
 								<Syringe className='size-6' />
 								Especialidades
 							</Link>
 							<Link
-								href={'/'}
+								href={'/contact'}
 								className='flex gap-1 items-center transition-colors hover:underline dark:hover:text-yellow-secondary hover:text-green-primary'
 							>
 								<MapPin className='size-6' />

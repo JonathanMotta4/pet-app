@@ -33,6 +33,7 @@ Alguma duvida ou precisando de atendimento?
 Nossa equipe está pronta para te ajudar no que seu pet precisar
 (51)98556-9550
 petbem.rs@gmail.com 
+Rua Marechal Rondon,18 - Parque indio Jari - Viamão/RS
 Segunda à Sexta: das 9H-12H e as 13:30H-19H
 Sabados: das 9h até às 13H
 Feriados: Não funcionamos em feriados ou datas comemorativas
